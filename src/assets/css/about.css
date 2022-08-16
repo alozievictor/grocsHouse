@@ -1,0 +1,29 @@
+#fixed-image{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(../images/fixed\ bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    object-fit: cover;
+}
+
+#shop{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/phone.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#contact{
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/phone.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}

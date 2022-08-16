@@ -1,0 +1,82 @@
+import React from 'react'
+
+const ContDisplay = () => {
+  return (
+    <div>
+      <div className='text-gray-800 mb-10'>
+        <div className='md:w-[75%] mx-auto grid md:grid-cols-3 gap-7 py-10'>
+          <div className='border py-10'>
+              <div className='flex justify-center'>
+              <img src="data:image/png;base64,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" alt=''></img>
+              </div>
+              <div className='text-center md:py-7'>
+                <h3 className='text-2xl pb-5 font-medium'>Email Address</h3>
+                <p>info@webmail.com</p>
+                <p>jobs@webexample.com</p>
+              </div>
+          </div>
+          <div className='border py-10'>
+              <div className='flex justify-center'>
+                <img src="data:image/png;base64,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" alt=''></img>
+              </div>
+              <div className='text-center md:py-7'>
+                <h3 className='text-2xl pb-5 font-medium'>Phone Number</h3>
+                <p>+0123-456789</p>
+                <p>+987-6543210</p>
+              </div>
+          </div>
+          <div className='border py-10'>
+              <div className='flex justify-center'>
+                <img src="data:image/png;base64,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" alt=''></img>
+              </div>
+              <div className='text-center md:py-7'>
+                <h3 className='text-2xl pb-5 font-medium'>Office Address</h3>
+                <p>18/A, New Born Town Hall</p>
+                <p>New York, US</p>
+              </div>
+
+          </div>
+        </div>
+
+        <div className='shadow-md pb-6 border-red-500 md:w-[75%] mx-auto'>
+          <h2 className='text-3xl pl-16 font-medium pt-10'>Connect Us</h2>
+            <form>
+              <div className='m-14 grid md:grid-cols-2 gap-5 relative'>
+                <div className='flex border items-center pr-5'>
+                  <input className='px-4 py-5 md:w-full hover:placeholder:borde-0' 
+                  type="text" name='name' placeholder='Enter your name'/>
+                  <img className='w-9 h-9 p-2' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAB1klEQVRIie3Wv2sUYRDG8e+8xyl3phE0RToVRSTYmEYx520h2hyKySYhYBO0ThP/BkEQxFaLgCKJ64+AjWl0LxcIQtIqgilFSESNF4li3h0LEYzc3r4b3rPKU84O83mZfWEXdvKfInmaqy/DLowZRxkAjgAovDXIY1V7Ow6ide9wpT56WNQ+FziY0rKMJufjIHrnDa4t1srN9fIScLRdn8Jr0dKJOJj8njXTuMDNZnksCwUQOCayMeYy0wlWIXTpA1AY9AYDva4wyHFvsMAed1i7vMHAB2cW3vuE37jCIurU67ZqkRlXGMxTb/Cuon2k8NWhdW3TmCfe4NlT0ScRbmQ2ilyf73/w2RsMQFK6ifCqjbpQ+rZ2y3Vcro/E2fmRnp+b2vLWWlPsaVTuO9/+XDBANR7WVvW4Op1rlvuqPScXHLwYGkh9Vh++lGdW5nrCh2FhpVsqIFeAEUk5rEICTIHe7V7RuWgostuCz8ThSYO5qlAD9mUd8J98FHiWkNypV6MFJ7h/LtxfUHMP5VxOrHWEWSvJ5UYlWk2FTzdG9xasXWzze7PdLKM/+uJg5sufwpb3VbTJtQ6gAIdg98TfhS1wgl7oAPo7wsVUWOBAx+DObHIn2fkFVsuCqruM14oAAAAASUVORK5CYII=" alt=''></img>
+                </div>
+                <div className='flex border items-center pr-5'>
+                  <input  className='px-4 py-5 md:w-full hover:placeholder:border-lime-600' 
+                  type="email" name="email" id="" placeholder='Enter your email'/>
+                  <img className='w-9 h-9 p-2' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACO0lEQVRIie2TT0hUURSHv/OcRiXaCE7uW0lQy8KCuU9ppgJbiM8ZkCKkVkaLDJRWrkKhWlUri7CE+VNulGwMfXdABDftwlWtXJSCRBDqlO+0MIeQUUeZNjHf6nLPub/vcv9AlSr/G7I9ML7XhDjvgNP/yLWIhmLWHVsCcADc2WSbdbNfasNBK8JCxZXCQm04OG/dsSV3NtlWFAeOvjV+sjPXkl0Nr4fbFKYrqLX1taFYriW7GrVd7eroZFEsEEY05ea7eqbjL39EGoN20NcVkE6g9Zemzo59N/lEtyDjQF1R/IcaVRlxbeJO9mS20LisSZRnh3fKK/Rrh3VfrJt8sleVUSC0XQ3t7FZ4aPyuSNbNDKDcNDbxDaHvQE7VJ9Y030ZSgckn+1Edkh0tTsmFIv3G73oMg2Ld9F1EBg4gHbZu5hYMqvETD1AdKtVWWrwl7zV2cdT4JmSjqWGBXoVgL6VAn3UzA17Gq4nmkyN7ndTuYgChGzk+bvzrdb5JPxXhGvCzROemiN7wTfqR99ELr0QkJWjPXtF7i7doR9amzs1dOWaj6TGUDmDtr/qGBJrwo5nnsdzVo8srzgRI536h5YgBzJHN+vfxea/BuulJVC4rfAY+oXLRb828ic97DYW6woxArJzAna96d5QzGwVnrnXGuzDrpixworgr32taLzg5gVPlxpUv3qJ5s0Y+mHzyHkFNDgBnM64a3BeIHCTooGIEiaA6gvzamlAQdv7S/Sn3jitOVVylSpVD8xuR4Mwta+btOgAAAABJRU5ErkJggg==" alt=''></img>
+                </div>
+                <div className='flex border items-center pr-5'>
+                  <input  className='px-4 py-5 md:w-full hover:placeholder:border-lime-600' 
+                  type="text" name='country' id='' placeholder='Enter your country'/>
+                  <img className='w-10 h-10 p-2' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACq0lEQVRIieWWz0sUYRjHv88744/tYCAZYQYFHbKggyVo6O6YiqikRWxjVNB/UESURz0FXTp0q2OUq3PRCM0Ud9Zki8B+Qh6F0GjtEHZZ3d2Zp4uWzLy7OzMtdOh7mnmeZ76f98cz8w7wv4m8FnYlo9WZLJ1lUB8YRwDUbaVWACwx8NRSlPGF1ic/SgJuTkZDFVlxgxm3CKgqUr5OoLsb5da9V6eMdGBw58JAbTbH4wAaiw3QofeqavfPthhffIO1+KU6UO41gP0+oVviFWFx01y7sSrLClmwORkNMeUmgkMBgOpsRYxr8auVnsHlGeUmAQ3Bob91Ekhflw7LGehKRqs3MmK5SCOlGOIKscUgegRgX4Ha9ZyiHHJ2u2vGm1nlXBGoWaZSQ0IbmTHbxmYtYR8HYbpA/W41Z/c7g5Kl5jN5DCwwDdes2R0zLbGv28GXYeN7TcruBfEQAEv6JNl9zpDqwjLq5a1OI2ZbbEiWMS4YFoBhzRw4DPBlybNHnRHXjAmolXKlhp5rXG+HrKvLigN8S/EC/ubFSTN11kydPYJTHsD81qOZdxEWi4KJECs51+IR91gc6p7srkjvqloBsKcUUAav7a3hA8YxI7Mz7prxVM/UJogGSwEFAGJx2wkF8p1ODNIS+gsAHX9HxbQZHu0GwdWE0kMCBA5VqucZ+BiUycDnnFAuyqD5wQCmmh7/VCy7B8CnANwP5Sp1FvoNygsGgLl2Y1XN2q0AnnlGEiZClWp45/dcXuZFDNJM/RoIdwBID3YAaQINxiOx+/mW1z94S+GEXi8YkwAOOlLLNqF3PjK65NXLFxgA2uaiJ2wh3tCfbbJsosb5SOydH5+CeyxT/LSxSAxj+55AY36hgcAAIIR4sH1tw34YxCOYGBQx9WktoT8H+9+uf6pfob3baa3DGywAAAAASUVORK5CYII=" alt=''></img>
+                </div>
+                <div className='flex border items-center pr-5'>
+                  <input  className='px-4 py-5 md:w-full hover:placeholder:border-lime-600' 
+                  type="number" name="number" id=""  placeholder='Enter phone number'/>
+                  <img className='w-9 h-9 p-2' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACAklEQVRIie2VP2hTURTGf+e2NAiiUpfiJLi5KYr4r3n5Q0UHQWxMRZEubqKIi4uTSylOdRB1EFGx5SGCYKfEvKYoFemiFBfRxYoY2sEKJUlzj0upIXlJE17eIOQbv3u+87vncuBCV12FJPEzUwupvl8Fcw0YFdgDWkBNVpQnufhkNhTw4XepLZGSmQacBplMjzE3soPPPwYBm1ojUjbjTaAAyTVrP8S8katBwHUTR730kkB/i+kXWDvqxdw/7YLrJhblnoJtKa2cxZhMInNmZ7tg3+WK59P7rTKBcrTFPp/R3iEv9ux7IDAAijj5c5dQGQMG1t05VG+JoV9V7gM7qhLfTMUef5NwF4OB13Vy7sK21WL5MlYWPWdqCkEBEvnU3oo1r4HdVeULPWulaDb5cikwuJmcXGoAMdPAvqqO77E2udnC1S1XO/Ji7s+KsSeALxumcgiRR5tlA4EBZgfdghVOKyz/c2XYyaWvNMsFeupqObmRYUTdKqtoxR7MR91PfvWBJ95oZGS5xoqImjsN6ztCVaSi9natLTAUnzkfDw3seOm0wBHfO6m9GBpYhF2NziwkQgOXelcfKvzwvVSDD6cj4LfHXq2A3PQ7U/gaGhhgJjr5FJj1ATwOFYygYu31mi/V+711+91wwUAu7s6DjgErik4U++yp+QMPyp1kdPX/6C9OjqkkKhAmcAAAAABJRU5ErkJggg==" alt=''></img>
+                </div>
+              </div>
+              <div className='border-red-500 mx-14 mb-10 px-'>
+                <textarea className='border mx-auto w-full h-36 px-5 py-5' name="" id="" cols="50" rows="10" placeholder='Enter message'></textarea>
+              </div>
+              <div className='flex mx-14'>
+                <input type="checkbox" name="" id="" />
+                <p className='ml-2'>Save my name, email, and website in this browser for the next time I comment.</p>
+              </div>
+           
+              <button className='px-16 py-4 bg-lime-500 hover:bg-lime-600 hover:border-0 hover:text-gray-300 rounded-md text-xl text-white border mx-14 mt-7' type='Submit'>Send</button>            
+            </form>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default ContDisplay;

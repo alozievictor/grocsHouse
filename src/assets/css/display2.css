@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cont-text{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'poppins';
+    /* border: 1px solid red; */
+    line-height: 45px;
+
+}
+.time{
+   width: 80px;
+   height: 80px;
+   padding: 25px 15px; 
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   border-radius: 130px;
+   /* border: 1px solid red; */
+   background: #fff;
+
+}

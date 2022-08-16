@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App .loading{
+  text-align: center;
+  background-color: white;
+  display: flex;
+  width: 30%;
+  height: 50vh;
+  margin:10% auto;
+  justify-content: center;
+  align-items: center;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+#hero{
+  width: 100%;
+  height: 80vh;
+  background-image: url(./assets/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.icons img{
+  width: 30px;
+}
+#item-1{
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  background-image: url(./assets/images/veg.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#item-2{
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  background-image: url(./assets/images/bread2.jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#item-3{
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  background-image: url(./assets/images/wine.jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#item-4{
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  background-image: url(./assets/images/egg.jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#item-5{
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  background-image: url(./assets/images/milk.jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#item-6{
+  width: 220px; 
+  height: 150px;
+  margin: auto;
+  background-image: url(./assets/images/meat.jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#item-7{
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  background-image: url(./assets/images/Bananas\ \(1\).jpeg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+#item-8{
+  width: 220px;
+  height: 150px;
+  margin: auto;
+  background-image: url(./assets/images/Free\ Honey\ Jar\ Mockups.png);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
 }
